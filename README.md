@@ -6,9 +6,9 @@ TERA Toolbox mod that automatically switches card presets and collection effects
 
 1. Close TERA Toolbox. Back up any existing Cards configuration and protocol files you will edit.
 2. Download this repository using **Code → Download ZIP**. Extract it.
-3. Move the folder to `<Toolbox>\mods\`.
-4. Copy the files from `Cards\definitions` into `<Toolbox>\data\definitions`.
-5. Copy `Cards\opcodes\protocol.381290.map` into `TeraToolbox Private\data\opcodes`.
+3. Move the folder to `<Toolbox>\mods\`
+4. Copy the files from `Cards\definitions` into `<Toolbox>\data\definitions`
+5. Copy `Cards\opcodes\protocol.381290.map` into `TeraToolbox Private\data\opcodes`
 6. Save your card decks in TERA's Cards UI, then open `Cards\config.json`. Set each category's `Preset` value to the corresponding in-game preset number. For example:
 
    ```json

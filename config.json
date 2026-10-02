@@ -1,0 +1,22 @@
+{
+"ancestorPreset" : 1,
+"azartPreset" : 1,
+"demonPreset" : 1,
+"argonPreset" : 3,
+"dragonPreset" : 1,
+"godPreset" : 1,
+"magicalPreset" : 1,
+"magicaldevicePreset" : 2,
+"giantPreset" : 1,
+"beastPreset" : 1,
+"basicPreset" : 1,
+
+"defaultEffect" : 17, 
+"dont edit these": "its 3k amp / 0.01mcp/pcp effects",
+"secondaryEffect" : 22,
+    
+"fishing" : false,
+"fishPreset" : 10,
+    
+"rodID" : [206700, 206701, 206702, 206703, 206704, 206705, 206706, 206707, 206708, 206721, 206722, 206723, 206724, 206725, 206726, 206727, 206728, 206711, 206712, 206713, 206714, 206715, 206716, 206717, 206718]
+}

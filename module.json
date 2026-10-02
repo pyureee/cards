@@ -1,0 +1,8 @@
+{
+    "disableAutoUpdate": true,
+    "name": "Cards",
+    "author": "bald fuck",
+    "description": "Automatically switches TERA card presets and collection effects for supported dungeons, bosses, and open-world encounters.",
+    "version": "1.0",
+    "servers": [""]
+}

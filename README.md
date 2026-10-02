@@ -8,16 +8,7 @@ TERA Toolbox mod that automatically switches card presets and collection effects
 2. Download this repository using **Code → Download ZIP**. Extract it and rename `cards-main` to `Cards`.
 3. Move the folder to `<Toolbox>\mods\Cards`. Make sure `index.js`, `module.json`, and `config.json` are directly inside it.
 4. Copy the files from `Cards\definitions` into `<Toolbox>\data\definitions`.
-5. For protocol **381290**, merge the entries from `Cards\opcodes\protocol.381290.map` into Toolbox's active `data\opcodes\protocol.381290.map`:
-
-   ```text
-   C_CHANGE_CARD_PRESET 36656
-   C_DEACTIVATE_CARD_COMBINE_LIST 20541
-   C_ACTIVATE_CARD_COMBINE_LIST 30699
-   ```
-
-   Preserve the rest of the active map and keep one entry per packet name. For another protocol, use that server's matching opcode values.
-
+5. Copy `Cards\opcodes\protocol.381290.map` into `C:\Program Files (x86)\TeraToolbox Private\data\opcodes`.
 6. Save your card decks in TERA's Cards UI, then open `Cards\config.json`. Set each category's `Preset` value to the corresponding in-game preset number. For example:
 
    ```json
